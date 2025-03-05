@@ -1,0 +1,23 @@
+#content {
+    max-width: 1600px;
+    margin: 0 auto;
+}
+nav a, .heroMsg h1, .heroMsg h4,.buttonBox, main section {
+    text-align: center;
+}
+#background{
+    height: 725px;
+}
+header{
+    background-color: #5ABCB9;
+}
+body{
+    background-color: #399E5A;
+}
+nav {
+    background-color: #399E5A;
+}
+nav a:hover{
+    background-color: #5ABCB9;
+    color: #6EF9F5;
+}

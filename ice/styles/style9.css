@@ -1,0 +1,39 @@
+* {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    box-sizing: border-box;
+}
+img {
+    width: 100%;
+}
+
+h1 {
+    font-size: 1em;
+    color: #4b71fb;
+}
+h2 {
+    font-size: 1.5em;
+}
+p{
+    color: gray;
+    padding: 10%;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.block {
+    background-color: #154095;
+    padding: 15px;
+    border: solid 1px gray;
+}
+
+p.blockT {
+    color: white;
+    padding:  0;
+    justify-content: center;
+    align-content: center;
+}
