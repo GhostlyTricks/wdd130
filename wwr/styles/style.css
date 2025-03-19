@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Alatsi&family=Jaldi:wght@400;700&family=Yantramanav&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Alatsi&family=Jaldi&family=Yantramanav&display=swap');
 *{
     margin: 0;
     padding: 0;
@@ -19,11 +21,30 @@ header{
 }
 body{
     /*background-color: #399E5A;*/
+    font-family: 'Jaldi', 'Verdana', 'sans-serif';
+    font-size: 22px;
+    margin: 0;
+    padding: 0;
+}
+.riverCard .campingCard .rapidsCard {
+    margin: 200px 0;}
+.cardImg {
+    border: 10px solid #63E2C6;
+}
+p {
+    font-family: 'Jaldi', 'Verdana', 'sans-serif';
+}
+h1, h2, h3, h4 {
+    font-family: 'Alatsi', 'Tahoma', 'sans-serif';
+}
+h2 {
+    margin: 0;
 }
 nav a {
     background-color: #399E5A;
     color: black;
     text-decoration: none;
+    padding: 35px;
 
 }
 nav a:hover{
@@ -33,11 +54,23 @@ nav a:hover{
 .msg{
     background-color: #399E5A;
     color: black;
+    line-height: 1.5em;
+    padding: 35px;
+}
+.msg p {
+    font-family: 'Jaldi', 'Verdana', 'sans-serif';
+    font-size: 0.8em;
+    padding-bottom: 15px;
 }
 .book, .join{
     background-color: #399E5A;
     color: black;
     text-decoration: none;
+    font-family: 'Alatsi', 'Tahoma', 'sans-serif';
+    font-size: 18px;
+    padding: 15px 30px;
+    margin-top: 50px;
+    border-radius: 5px;
 }
 .book:hover, .join:hover{
     background-color: #5ABCB9;
@@ -46,6 +79,8 @@ nav a:hover{
 footer{
     background-color: #399E5A;
     color: black;
+    padding: 25px 50px;
+    margin-top: 200px;
 }
 footer p {
     font-size: 1.2em;
@@ -61,15 +96,25 @@ footer a:hover {
     background-color: #5ABCB9;
     color: #6EF9F5;
 }
+footer .social img {
+    padding-top: 15px;
+}
 .homeTitle {
     color: black;
+    font-family: 'Alatsi', 'Tahoma', 'sans-serif';
+    font-size: 2em;
+    margin-top: 10px;
 }
 h4{
     color: black;
 }
 .icon{
     width: 80px;
+    padding-top: 10px;
 }
 .heroImg {
  width: 100%;
+}
+#logoLink {
+    padding-top: 5px;
 }
